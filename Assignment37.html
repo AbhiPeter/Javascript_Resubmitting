@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Assignment 37 </title>
+</head>
+
+<body>
+
+    <pre>
+1)console.log(a)
+-it will show the error as we have not defined the value for a
+
+2)a=10;console.log(a)
+-it will show the value as 10;
+
+3)var a=10;
+function sum()
+{
+    console.log(a);
+    var a;
+}
+
+
+- no output as we have not called the function sum() in order to display the result it must be called
+
+4)var b=10;
+function getuserdetails()
+{
+    console.log(a);
+    var a=10;
+
+}
+getuserdetails();
+
+- here the output will be undefined due to varibale hositing
+
+5)var a=10;
+function getuserdeatils()
+{
+    var a=10;
+    console.log(a);
+    a=5
+}
+console.log(a);
+getuserdeatils();
+
+
+- here output will be 10 10 
+
+6)b=10;
+function getuserdeatils()
+{
+    return 0;
+    var a=10;
+    console.log(a);
+}
+getuserdeatils();
+
+- here output will be 0 as we are returning the value from function
+
+
+7)var a=50;
+function getuserdeatils()
+{
+    console.log(a);
+}
+
+- here it will dispaly no result as we have not called function or there is no invoking of the function
+</pre>
+</body>
+
+</html>
